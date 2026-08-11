@@ -23,3 +23,21 @@ print("        BASIC CHATBOT")
 print("================================")
 print("Type 'bye' to exit the chatbot.")
 print()
+
+# Main chatbot loop
+while True:
+
+    # Get input from the user
+    user_input = input("You: ").lower()
+
+    # Get chatbot response
+    response = chatbot_response(user_input)
+
+    # Display chatbot response
+    print("Bot:", response)
+
+    # Exit the chatbot
+    if user_input == "bye":
+        break
+
+print("\nChatbot ended. Goodbye!")
