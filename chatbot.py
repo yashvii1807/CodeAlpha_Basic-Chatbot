@@ -17,3 +17,9 @@ def chatbot_response(user_input):
     else:
         return "Sorry, I don't understand."
 
+# Welcome message
+print("================================")
+print("        BASIC CHATBOT")
+print("================================")
+print("Type 'bye' to exit the chatbot.")
+print()
