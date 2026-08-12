@@ -124,21 +124,3 @@ print()
 # Main chatbot loop
 while True:
 
-    # Get user input
-    user_input = input(f"{user_name}: ").lower().strip()
-
-    # Get chatbot response
-    response = chatbot_response(user_input, user_name)
-
-    # Display response
-    print("Bot:", response)
-
-    # Stop chatbot
-    if user_input in ["bye", "exit", "quit"]:
-        break
-
-
-print("\n========================================")
-print("       🤖 CHATBOT ENDED")
-print("========================================")
-print(f"Goodbye {user_name}! Thanks for chatting with PyBot.")
